@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CV</string>
+    <string name="app_title_1">Create your resume</string>
+    <string name="fullname">FullName</string>
+    <string name="email">Email</string>
+    <string name="age">Age</string>
+    <string name="error">Required*</string>
+</resources>
