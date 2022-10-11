@@ -37,10 +37,11 @@ class SkillsActivity : AppCompatActivity() {
             i.putExtra("email",email);
             i.putExtra("age",age);
             i.putExtra("genre",genre);
+            
             //send skills
-            i.putExtra("android",android.value).toString();
-            i.putExtra("ios",ios.value).toString();
-            i.putExtra("flutter",flutter.value).toString();
+            i.putExtra("android",android.value.toString());
+            i.putExtra("ios",ios.value.toString());
+            i.putExtra("flutter",flutter.value.toString());
 
             //send language
             if(ar.isChecked){
