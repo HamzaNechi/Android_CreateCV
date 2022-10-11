@@ -99,8 +99,8 @@
         android:id="@+id/card"
         android:layout_width="377dp"
         android:layout_height="122dp"
-        android:checkable="true"
-        android:clickable="true"
+        android:checkable="false"
+        android:clickable="false"
         android:focusable="true"
         android:layout_margin="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -125,6 +125,7 @@
                 android:textStyle="bold" />
 
             <RadioGroup
+                android:id="@+id/radGroup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
