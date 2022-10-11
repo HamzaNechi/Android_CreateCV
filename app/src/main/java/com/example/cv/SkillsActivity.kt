@@ -32,7 +32,17 @@ class SkillsActivity : AppCompatActivity() {
 
         btnS.setOnClickListener{
             val i=Intent(this,ResultActivity::class.java);
-            i.putExtra("android",android.value.toString());
+            //send personal information
+            i.putExtra("name",nom);
+            i.putExtra("email",email);
+            i.putExtra("age",age);
+            i.putExtra("genre",genre);
+            //send skills
+            i.putExtra("android",android.value).toString();
+            i.putExtra("ios",ios.value).toString();
+            i.putExtra("flutter",flutter.value).toString();
+
+            //send language
             if(ar.isChecked){
                 i.putExtra("ar","Arabe");
             }
@@ -43,6 +53,7 @@ class SkillsActivity : AppCompatActivity() {
                 i.putExtra("eng","English");
             }
 
+            //send hobbies
             if(music.isChecked){
                 i.putExtra("music","Music");
             }
