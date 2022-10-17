@@ -6,16 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".FormActivity">
 
+    <include
+        layout="@layout/my_toolbar"
+        android:id="@+id/myToolbar"/>
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="186dp"
-        android:layout_height="176dp"
+        android:layout_width="165dp"
+        android:layout_height="133dp"
         android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myToolbar"
         app:srcCompat="@drawable/ic_baseline_person_pin_24" />
 
     <com.google.android.material.textfield.TextInputLayout

@@ -7,6 +7,10 @@
     android:orientation="vertical"
     tools:context=".SkillsActivity">
 
+    <include
+        layout="@layout/my_toolbar"
+        android:id="@+id/myToolbar"/>
+
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="200dp"
