@@ -17,7 +17,10 @@ class ResultActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
+        val btnCareer=findViewById<Button>(R.id.career);
         val toolbar=findViewById<androidx.appcompat.widget.Toolbar>(R.id.myToolbar);
+        setSupportActionBar(toolbar);
+
         toolbar.title="Your Resume";
         val name=findViewById<TextView>(R.id.nom)
         name.text=intent.getStringExtra("name").toString();
@@ -41,6 +44,11 @@ class ResultActivity : AppCompatActivity() {
 
         btnLanguage.setOnClickListener{
             replaceFragment(LangFragment(),"Language");
+        }
+
+        btnCareer.setOnClickListener{
+            val intent=Intent(this,CareerActivity::class.java);
+            startActivity(intent);
         }
     }
 

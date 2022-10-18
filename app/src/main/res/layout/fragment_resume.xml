@@ -17,12 +17,12 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="84dp"
+            android:layout_marginTop="44dp"
             android:text="Hello !My name is"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.273"
+            app:layout_constraintHorizontal_bias="0.297"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -30,14 +30,14 @@
             android:id="@+id/nom_resume"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="84dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="44dp"
             android:text="hamza"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.154"
             app:layout_constraintStart_toEndOf="@+id/textView"
             app:layout_constraintTop_toTopOf="parent" />
 

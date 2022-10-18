@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CareerActivity"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/my_toolbar"
+        android:id="@id/myToolbar"
+        />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/container_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/experience"
+            android:layout_width="204dp"
+            android:layout_height="match_parent"
+            android:text="EXPERIENCE"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"/>
+
+        <Button
+            android:id="@+id/education"
+            android:layout_width="191dp"
+            android:layout_height="match_parent"
+            android:text="EDUCATION" />
+    </LinearLayout>
+
+
+</LinearLayout>
