@@ -13,8 +13,23 @@
         android:theme="@style/Theme.CV"
         tools:targetApi="31">
         <activity
-            android:name=".CareerActivity"
+            android:name=".AddEducation"
             android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AddExperience"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CareerActivity"
+            android:exported="false"
+            android:parentActivityName=".ResultActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

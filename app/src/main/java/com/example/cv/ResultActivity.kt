@@ -22,6 +22,7 @@ class ResultActivity : AppCompatActivity() {
         setSupportActionBar(toolbar);
 
         toolbar.title="Your Resume";
+
         val name=findViewById<TextView>(R.id.nom)
         name.text=intent.getStringExtra("name").toString();
 
